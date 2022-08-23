@@ -1,4 +1,4 @@
-# Step 1:
+# Step 1:-
 #DataFlair - Extract features (mfcc, chroma, mel) from a sound file
 def extract_feature(file_name, mfcc, chroma, mel):
     with soundfile.SoundFile(file_name) as sound_file:
